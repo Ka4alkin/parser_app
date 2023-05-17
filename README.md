@@ -1,3 +1,4 @@
+👋
 
 - Create DB in mongodb locally with name "parserApp"
 
@@ -5,10 +6,14 @@
 
   so, run this step by step:
 
-  -> use parserApp
-  -> db.createCollection('posts')
+   -> use parserApp
+
+   -> db.createCollection('posts')
+
      db.createCollection('roles')
+
      db.createCollection('user')
+
      db.roles.insertMany([
      {
      value: "USER"
