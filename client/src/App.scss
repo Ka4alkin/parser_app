@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.alerts {
+  position: fixed;
+  z-index: 10000;
+  width: 13.500em;
+  top: 1em;
+  right: calc(-110px + 50%);
+}
+
+.alerts > div {
+  padding: .8em;
+  margin-bottom: .4em;
+  background-color: rgba(200, 200, 200, 0.8);
+  cursor: default;
+}
+
+.alert-error {
+  background-color: rgba(183, 64, 64, 0.8) !important;
+}
